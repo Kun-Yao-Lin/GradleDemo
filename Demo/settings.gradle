@@ -1,1 +1,1 @@
-include ':gradledemo'
+include ':Gradledemo', ':libs:DependenceProject'

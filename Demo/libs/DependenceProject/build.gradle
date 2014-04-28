@@ -1,12 +1,12 @@
-apply plugin: 'android'
+apply plugin: 'android-library'
 
 android {
-    compileSdkVersion 19
+    compileSdkVersion 18
     buildToolsVersion "19.0.0"
 
     defaultConfig {
         minSdkVersion 8
-        targetSdkVersion 19
+        targetSdkVersion 16
         versionCode 1
         versionName "1.0"
     }
@@ -21,11 +21,4 @@ android {
 dependencies {
     compile 'com.android.support:appcompat-v7:+'
     compile fileTree(dir: 'libs', include: ['*.jar'])
-
-//    dependence project
-    compile project(':libs:DependenceProject')
-
-    //QR
-       compile 'com.google.zxing:javase:2.0'
-
 }
