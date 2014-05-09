@@ -1,0 +1,5 @@
+在root目錄中有兩個project分別為
+Gradledemo 與 DependenceProject 
+兩者皆未經過處理,方面練習使用
+
+在demo目錄裡
