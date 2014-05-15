@@ -20,12 +20,10 @@ android {
 
 dependencies {
     compile 'com.android.support:appcompat-v7:+'
+    //libs dir
     compile fileTree(dir: 'libs', include: ['*.jar'])
-
-//    dependence project
-//    compile project(':libs:DependenceProject')
-
     //QR
     compile 'com.google.zxing:javase:2.0'
-
+//    dependence project
+//    compile project(':libs:DependenceProject')
 }
