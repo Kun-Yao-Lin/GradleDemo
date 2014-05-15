@@ -24,6 +24,6 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     //QR
     compile 'com.google.zxing:javase:2.0'
-//    dependence project
+
     compile project(':android_libs:DependenceProject:app')
 }
