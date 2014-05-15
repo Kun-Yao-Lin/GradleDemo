@@ -1,4 +1,4 @@
-apply plugin: 'android'
+apply plugin: 'android-library'
 
 android {
     compileSdkVersion 19
@@ -20,8 +20,5 @@ android {
 
 dependencies {
     compile 'com.android.support:appcompat-v7:+'
-    //libs dir
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    //QR
-    compile 'com.google.zxing:javase:2.0'
 }
