@@ -1,0 +1,5 @@
+在root目錄中有兩個project分別為 Gradledemo 與 DependenceProject 
+
+以上兩者皆未經過處理,方便練習使用
+
+在Demo目錄裡為完成dependece後的project，練習中可參考
