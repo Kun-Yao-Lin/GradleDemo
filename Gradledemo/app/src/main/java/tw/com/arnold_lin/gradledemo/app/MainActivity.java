@@ -14,6 +14,8 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         //release test
         //qweojqsfhliwue
+
+        //test hotfix
     }
 
     public  void goToDepend(View v){
